@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+
+a:hover{
+    color: white !important; 
+}
+
+.container-fluid bi{
+    font-size: 28px !important;
+}
+
+.navbar-brand {
+    font-family: "Cardo", serif !important;
+}
+
+.collapse{
+    font-family: "Inter" !important;
+}
+.under{
+    display: inline;
+    background-color: #27A776;
+    width: 245px;
+    height: 10px;
+}
+
+.wilson{
+    width: 660px;
+    height: 231px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    gap: 15px;
+}
+.wilson h2{
+    font-size: 38px;
+    font-family: "Cardo", serif !important;
+    font-weight: bolder;
+}
+.wilson p{
+    font-size: 18px;
+    color: gray;
+}
+
+button{
+    width: 233px;
+    height: 45px;  
+}
+.btn{
+    background-color: #27A776;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid #27A776;
+    color: #27A776;
+}
+.btn a:hover{
+    color: #27A776 !important;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem; 
+    border: none !important;
+    border-radius: 79px;
+    width: 1338px;
+    height: 100%px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 180px;
+    cursor: pointer;
+  }
+
+  .card {
+    flex: 1 1 calc(25% - 1rem); 
+  }
+
+#footer{
+    width: 1591px;
+    height:192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    background-color: rgb(9, 9, 9);
+    margin-top: 70px;
+}
+
+
+.icon1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+.icon4{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+.copyright{
+    font-size: 13px;
+}
+
+.design a{
+    text-decoration: none;
+    color: #27A776;
+    font-size: 13px;
+}
